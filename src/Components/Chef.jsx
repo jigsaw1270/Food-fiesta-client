@@ -6,7 +6,7 @@ const Chef = () => {
     const [info,setInfo]= useState([])
      
     useEffect(()=>{
-        fetch('http://localhost:4000/chefRecipe')
+        fetch('https://recipe-assignment-hunter-jigsaw1270.vercel.app/chefRecipe')
         .then(res=>res.json())
         .then(data=>setInfo(data))
     },[])

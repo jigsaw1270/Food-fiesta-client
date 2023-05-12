@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import banner1 from "../img/slider2 (1).jpg"
-import banner2 from "../img/slider2 (1).jpg"
-import banner3 from "../img/slider2 (1).jpg"
+import banner1 from "../img/slider2 (4).jpg"
+import banner2 from "../img/slider2 (5).jpg"
+import banner3 from "../img/slider2 (6).jpg"
 const Banner = () => {
     return (
        <Container fluid >
@@ -14,7 +14,7 @@ const Banner = () => {
         <img 
 
           className="d-block w-100 img-fluid"
-          src={banner3}
+          src={banner2}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -39,7 +39,7 @@ const Banner = () => {
         <img 
 
           className="d-block w-100 img-fluid"
-          src={banner2}
+          src={banner3}
           alt="Third slide"
         />
 

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
-import { AuthContext } from '../provider/Authprovider';
+import { AuthContext } from '../Provider/Authprovider';
 import { Link } from 'react-router-dom';
 
 const Headers= () => {
@@ -8,12 +8,12 @@ const Headers= () => {
   const photo = user?.photoURL
     return (
     <div>
-      <Container fluid style={{background: "tomato"}}>
+      <Container fluid style={{background: "Green"}}>
       <Row>
           <Col>
           <Navbar collapseOnSelect expand="lg"  variant="dark">
             <Container>
-              <Navbar.Brand href="#home">ChefRecipe</Navbar.Brand>
+              <Navbar.Brand href="#home">Food Fiesta</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">

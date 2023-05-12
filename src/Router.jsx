@@ -19,7 +19,7 @@ const Router = createBrowserRouter([
     {
         path:'/chef/:id',
         element:<PrivateRoute><SingleChef /></PrivateRoute>,
-        loader:({params})=> fetch(`http://localhost:4000/chefRecipe/${params.id}`)
+        loader:({params})=> fetch(`https://recipe-assignment-hunter-jigsaw1270.vercel.app/chefRecipe/${params.id}`)
     },
     {
         path:'/login',
